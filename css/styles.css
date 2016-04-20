@@ -41,7 +41,7 @@ body {
 /**** Home ****/
 
 .navbar-inverse .navbar-nav>li>a {
-	color: black;
+	color: red;
 }
 
 @media (min-width: 768px) {
@@ -62,7 +62,7 @@ body {
 }
 
 .navbar-custom {
-	background-color: white;
+	background-color: black;
 	padding-top: 20px;
 }
 
