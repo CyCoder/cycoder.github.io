@@ -54,6 +54,12 @@ body {
 	text-transform: uppercase;
 }
 
+@media (min-width: 768px)
+.navbar-nav {
+	position: relative;
+	left: 35%;
+}
+
 .navbar-custom {
 	background-color: white;
 	padding-top: 20px;
