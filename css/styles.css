@@ -56,8 +56,7 @@ body {
 
 .navbar-custom {
 	background-color: white;
-	position: relative;
-  left: 35%;
+	padding-top: 20px;
 }
 
 .anchor {
