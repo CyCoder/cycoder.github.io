@@ -44,15 +44,6 @@ body {
 	color: black;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
-	color: red;
-}
-
-.navbar-nav {
-	position: relative;
-	right: 35%;
-}
-
 .navbar-brand {
 	position: relative;
 	bottom: 30px;
