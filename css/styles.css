@@ -49,7 +49,7 @@ body {
 	bottom: 30px;
 }
 
-@media (min-width: 768px)
+
 .navbar-nav {
     position: relative;
     left: 30%;
