@@ -49,6 +49,11 @@ body {
 	bottom: 30px;
 }
 
+.navbar-nav {
+    position: relative;
+    left: 30%;
+}
+
 .projectName a {
 	color: black;
 	text-transform: uppercase;
