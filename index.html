@@ -136,24 +136,53 @@
       </div><!-- end header -->
       <div class="col-xs-12 col-md-6">
         <img class="img-responsive profile" src="img/me2.jpg" alt="profile picture">
+        <h2>Who is <a href="#" title="More Information" id="item1">Philip</a>?</h2>
+        <p>About Me</p>
+        <div class="main-text">
+          <div class="skills">
+            <h3>My Skills:</h3>
+            <ul id="skill-list">
+              <li>HTML/CSS</li>
+              <li>Javascript/JQuery</li>
+              <li>Ruby on Rails</li>
+              <li>Wordpress and Drupal(Content Management System)</li>
+              <li>Weebly, Wix, Webnode, etc (Drag and Drop Website Builders)</li>
+            </ul>
+          </div> <!-- end skills -->
+        </div> <!-- end main-text -->
       </div> <!-- end column -->
       <div class="col-xs-12 col-md-6">
-      	<h2>Who is <a href="#" title="More Information" id="item1">Philip</a>?</h2>
-        <p>About Me
-        </p>
-      </div><!-- end skills column -->
-      <div class="main-text">
-      	<div class="skills">
-          <h3>My Skills:</h3>
-          <ul id="skill-list">
-            <li>HTML/CSS</li>
-            <li>Javascript/JQuery</li>
-            <li>Ruby on Rails</li>
-            <li>Wordpress and Drupal(Content Management System)</li>
-            <li>Weebly, Wix, Webnode, etc (Drag and Drop Website Builders)</li>
-          </ul>
-        </div> <!-- end skills -->
-      </div> <!-- end main-text -->
+        <form action="http://formspree.io/ptuan917@gmail.com" method="get">
+          <p>Send me a message</p>
+          <span>* is required</span>
+          <div class="form-group">
+            <div id="form-type">
+              <label for="*name">*Name</label>
+              <input class="form-control" id="name" required="required" placeholder="Your Name Here" title="Enter your name here" type="text"></input>
+              <p id="visible-name"></p>
+            </div> <!-- end form-name -->
+            <div id="form-type">
+              <label for="phone">Phone Number</label>
+              <input class="form-control" id="phone" placeholder="Your Number Here" title="Enter your number here. This is optional though" minlength="10" type="tel">
+              <p id="visible-phone"></p>
+            </div> <!-- end form-phone -->
+            <div id="form-type">
+              <label for="*email">*Email Address</label>
+              <input class="form-control" id="email" required="required" placeholder="Your Email Here" title="Enter your email address here" type="email"></input>
+              <p id="visible-email"></p>
+            </div><!-- end form-email -->
+            <div id="form-type">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" placeholder="Your Message Here" style="resize: none" cols="40" rows="5"></textarea>
+              <p id="visible-comment"></p>
+              Characters you typed:
+              <p id="char-count"></p>
+            </div> <!-- end form-message -->
+
+            <button type="submit" id="send" title="I can't wait!" class="btn btn-success">Send</button>
+          </div> <!-- end form-group -->
+        </form>
+      </div>
     </section> <!-- end container -->
     <!-- End About -->
 
@@ -197,36 +226,7 @@
 
       <!-- Contact Form -->
       <div class="col-md-8 col-lg-8">
-        <form action="http://formspree.io/ptuan917@gmail.com" method="get">
-          <p>Or... You can send me a message</p>
-          <span>* is required</span>
-          <div class="form-group">
-            <div id="form-type">
-              <label for="*name">*Name</label>
-              <input class="form-control" id="name" required="required" placeholder="Your Name Here" title="Enter your name here" type="text"></input>
-              <p id="visible-name"></p>
-            </div> <!-- end form-name -->
-            <div id="form-type">
-              <label for="phone">Phone Number</label>
-              <input class="form-control" id="phone" placeholder="Your Number Here" title="Enter your number here. This is optional though" minlength="10" type="tel">
-              <p id="visible-phone"></p>
-            </div> <!-- end form-phone -->
-            <div id="form-type">
-              <label for="*email">*Email Address</label>
-              <input class="form-control" id="email" required="required" placeholder="Your Email Here" title="Enter your email address here" type="email"></input>
-              <p id="visible-email"></p>
-            </div><!-- end form-email -->
-            <div id="form-type">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" placeholder="Your Message Here" style="resize: none" cols="40" rows="5"></textarea>
-              <p id="visible-comment"></p>
-              Characters you typed:
-              <p id="char-count"></p>
-            </div> <!-- end form-message -->
 
-            <button type="submit" id="send" title="I can't wait!" class="btn btn-success">Send</button>
-          </div> <!-- end form-group -->
-        </form>
       </div> <!-- end -->
     </section> <!-- end container -->
     <!-- End Contact -->
