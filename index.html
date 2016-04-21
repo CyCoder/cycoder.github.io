@@ -38,12 +38,12 @@
         </div> <!-- end navbar header -->
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
             <div class="navbar-brand">
               <img a href="index.html" class="projectName img-responsive" src="img/new-logo.gif" alt="logo"></a>
             </div> <!-- end projectName -->
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#work">Work Samples</a></li>
             <li><a href="#faq">Learn more</a></li>
           </ul>
         </div> <!-- end navbar collapse -->
@@ -97,7 +97,7 @@
       </div>
     </section> <!-- end container -->
 
-    <div class="container anchor" id="process">
+    <div class="container anchor" id="process portfolio">
       <!-- Example row of columns -->
       <div class="row">
       	<h1><strong> >_Hello World! I am a Web Developer. You can call me Philip</h1></strong>
@@ -150,6 +150,24 @@
             </ul>
           </div> <!-- end skills -->
         </div> <!-- end main-text -->
+        <div class="modal-button">
+          <!-- small modal button -->
+          <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">View Resume/CV</button>
+        </div> <!-- end modal-button -->
+        <!-- small modal -->
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">My Resume/CV</h4>
+              </div> <!-- end modal-header -->
+              <div class="modal-body">
+                <embed id="modalembed" src="resources/phil-resume.pdf">
+              </div> <!-- end modal-body -->
+            </div> <!-- end modal-content -->
+          </div> <!-- end modal-dialog -->
+        </div> <!-- end modal -->
       </div> <!-- end column -->
       <div class="col-xs-12 col-md-6">
         <form action="http://formspree.io/ptuan917@gmail.com" method="get">
@@ -187,10 +205,10 @@
     <!-- End About -->
 
     <!-- Portfolio Section -->
-    <section class="container anchor" id="portfolio">
+    <section class="container anchor" id="work">
       <div class="header">
-        <h1><strong>My Portfolio</strong></h1>
-        <p>Current and Previous Projects:</p>
+        <h1><strong>My Work Samples:</strong></h1>
+        <p>Here are my work samples where I demostrate my coding skills making small projects:</p>
       </div> <!-- end header -->
       <div class="row" id="works">
       <!-- The projects will be displayed by jQuery -->
@@ -200,10 +218,23 @@
 
     <!-- Contact Section -->
     <section class="container anchor" id="contact" data-stellar-background-ratio="0.1">
+      <div class="col-md-4 col-lg-4">
+        <div id="map"></div> <!-- end map -->
+      </div> <!-- end -->
+    </section> <!-- end container -->
+    <!-- End Contact -->
+
+    <!-- Learn More Section -->
+    <section class="container anchor" id="faq">
+      <div class="row">
+        <div class="header">
+          <h1 class="learn-more">Learn More</h1>
+      </div> <!-- end header -->
+
       <div class="header">
         <h1><strong>Contact Info</strong></h1>
         <div class="contact-intro">
-          <h3>You want to contact me? Awesome! Below is the many ways to contact me.</h3>
+          <h3>Here are other ways to get a hold of me:</h3>
         </div> <!-- end contact-intro -->
         <h2>CONTACT ME</h2>
         <div class="contact">
@@ -220,41 +251,6 @@
 
       <hr>
 
-      <div class="col-md-4 col-lg-4">
-        <div id="map"></div> <!-- end map -->
-      </div> <!-- end -->
-
-      <!-- Contact Form -->
-      <div class="col-md-8 col-lg-8">
-
-      </div> <!-- end -->
-    </section> <!-- end container -->
-    <!-- End Contact -->
-
-    <!-- Learn More Section -->
-    <section class="container anchor" id="faq">
-      <div class="row">
-        <div class="header">
-          <h1 class="learn-more">Learn More</h1>
-        </div> <!-- end header -->
-        <div class="modal-button">
-          <!-- small modal button -->
-          <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">View Resume/CV</button>
-        </div> <!-- end modal-button -->
-        <!-- small modal -->
-        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">My Resume/CV</h4>
-              </div> <!-- end modal-header -->
-              <div class="modal-body">
-                <embed id="modalembed" src="resources/phil-resume.pdf">
-              </div> <!-- end modal-body -->
-            </div> <!-- end modal-content -->
-          </div> <!-- end modal-dialog -->
-        </div> <!-- end modal -->
       </div> <!-- end row -->
       <div class="social">
         <a href="https://github.com/CyCoder"><img class="img-responsive icon" src="img/social/github.png" alt="github"></a>

@@ -1,16 +1,16 @@
 var works = [
 	{
-		title: "E-commerce Website",
+		title: "Calculator",
 		pic: "img/work-in-progress.png",
-		url: "http://phillysbikeshop.herokuapp.com"
+		url: ""
 	},
 	{
-		title: "DragonGate Restaurant",
+		title: "Sample Blog",
 		pic: "img/no-access.png",
 		url: ""
 	},
 	{
-		title: "Christian Flushing Community Church Official Website",
+		title: "To Do List",
 		pic: "img/no-access.png",
 		url: ""
 	}
