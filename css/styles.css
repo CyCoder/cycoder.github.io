@@ -54,12 +54,12 @@ body {
 .navbar-brand {
 	position: relative;
 	bottom: 40px;
+	font-size: 2em;
 }
 
 .projectName a {
 	color: black;
 	text-transform: uppercase;
-	font-size: 2em;
 }
 
 .navbar-custom {
