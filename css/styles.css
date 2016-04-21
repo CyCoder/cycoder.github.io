@@ -69,7 +69,7 @@ body {
 }
 
 .web-icon {
-	padding-left: 10px;
+	float: left;
 }
 
 .anchor {
