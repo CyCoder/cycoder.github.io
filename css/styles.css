@@ -49,8 +49,7 @@ body {
 
 @media (min-width: 768px) {
 	.navbar-nav {
-		position: relative;
-		left: 10%;
+		align: center;
 	}
 }
 
