@@ -121,6 +121,11 @@ body {
 	color: #FFF;
 }
 
+.profile {
+	width: 20%;
+	height: 50px;
+}
+
 #skill-list { margin-left: 50px; }
 
 .about-video { 
