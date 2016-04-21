@@ -42,14 +42,15 @@ body {
 
 .navbar-inverse .navbar-nav>li>a {
 	color: red;
-	font-size: 2em;
+	font-size: 1.7em;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
 	.navbar-nav {
-		align: center;
+		position: relative;
+		left: 15%;
 	}
 }
 
