@@ -59,6 +59,7 @@ body {
 .projectName a {
 	color: black;
 	text-transform: uppercase;
+	font-size: 1.5em;
 }
 
 .navbar-custom {
