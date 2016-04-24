@@ -235,12 +235,8 @@ form .btn {
 
 /**** Learn more ****/
 
-.learn-more {
-	text-align: center;
-}
-
 .modal-button {
-	float: right;
+	align: center;
 	padding: 15px;
 }
 
@@ -283,7 +279,7 @@ footer {
 }
 
 .copyright { 
-	float: right;
+	text-align: center;
 	color: black;
 	font-size: 1.5em; 
 }
