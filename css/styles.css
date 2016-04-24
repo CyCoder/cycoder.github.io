@@ -130,8 +130,6 @@ body {
 	height: 150px;
 }
 
-#skill-list { margin-left: 50px; }
-
 .about-video { 
 	padding-top: 5px;
 	text-align: center; 
@@ -166,16 +164,6 @@ hr {
 .email a,
 .chat h3 { 
 	color: black;
-	font-weight: bold;
-}
-
-.wechat {
-	color: #013601;
-	font-weight: bold;
-}
-
-.skype {
-	color: #000e96;
 	font-weight: bold;
 }
 
