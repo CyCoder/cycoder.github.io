@@ -50,7 +50,7 @@ body {
 @media (min-width: 768px) {
 	.navbar-nav {
 		position: relative;
-		left: 22%;
+		left: 20%;
 	}
 }
 
@@ -128,6 +128,8 @@ body {
 .profile {
 	width: 120px;
 	height: 150px;
+	align: center;
+	border: 3px black solid;
 }
 
 .about-video { 
