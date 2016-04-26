@@ -82,9 +82,9 @@ body {
 
 }
 
-div .cms-icon { background: url('../img/cms-icon.gif') no-repeat; }
-
-div .cms-icon:hover { background: url('../img/cms-icon-alt.gif') no-repeat; }
+.cms-icon {
+	
+}
 
 .anchor {
 	padding-top: 50px;
