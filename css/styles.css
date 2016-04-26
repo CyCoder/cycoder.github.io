@@ -68,9 +68,21 @@ body {
 	padding-top: 20px;
 }
 
-.web-icon {
-	float: left;
+.web-icon { float: left; }
+
+.res-icon {
+
 }
+
+.rails-icon {
+
+}
+
+.eco-icon {
+
+}
+
+.cms-icon:hover { background: url('img/cms-icon.gif') no-repeat; }
 
 .anchor {
 	padding-top: 50px;
