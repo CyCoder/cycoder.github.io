@@ -50,7 +50,7 @@ body {
 @media (min-width: 768px) {
 	.navbar-nav {
 		position: relative;
-		left: 20%;
+		left: 15%;
 	}
 }
 
@@ -123,6 +123,10 @@ body {
 	text-transform: uppercase;
 	background-color: #5AD4C2;
 	color: #FFF;
+}
+
+#skill-list {
+	list-style-type: none;
 }
 
 .profile {
