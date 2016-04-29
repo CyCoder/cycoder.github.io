@@ -1,17 +1,17 @@
 var works = [
 	{
 		title: "Calculator",
-		pic: "img/work-in-progress.png",
-		url: ""
+		pic: "img/calc.png",
+		url: "http://calc-project.bitballoon.com"
 	},
 	{
 		title: "Sample Blog",
-		pic: "img/no-access.png",
-		url: ""
+		pic: "img/blog.jpg",
+		url: "http://phils-blog.herokuapp.com/"
 	},
 	{
 		title: "To Do List",
-		pic: "img/no-access.png",
+		pic: "img/todolist.png",
 		url: ""
 	}
 ];
