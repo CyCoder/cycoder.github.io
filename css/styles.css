@@ -42,7 +42,7 @@ body {
 
 .navbar-inverse .navbar-nav>li>a {
 	color: red;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -56,12 +56,13 @@ body {
 }*/
 
 .navbar-brand {
+	float: right;
 	position: relative;
 	bottom: 38px;
 }
 
 .navbar-custom {
-	background-color: transparent;
+	background-color: black;
 	padding-top: 20px;
 }
 
