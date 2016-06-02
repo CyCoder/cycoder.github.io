@@ -47,24 +47,21 @@ body {
 	text-transform: uppercase;
 }
 
+/*
 @media (min-width: 768px) {
 	.navbar-nav {
 		position: relative;
 		left: 15%;
 	}
-}
+}*/
 
 .navbar-brand {
 	position: relative;
 	bottom: 38px;
 }
 
-.projectName a {
-	color: black;
-}
-
 .navbar-custom {
-	background-color: black;
+	background-color: transparent;
 	padding-top: 20px;
 }
 
